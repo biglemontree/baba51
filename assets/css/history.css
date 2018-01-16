@@ -1,0 +1,262 @@
+.cblue{
+    color: #6D3DE1;
+}
+.cgray{
+
+}
+html,body{height: 100%;}
+.i-banner{
+   
+}
+.i-banner img {
+    width: 100%;
+}
+.circle {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin: 0 auto;
+    /*background-color: rgba(132,89,229,0.3);*/
+    /*overflow: hidden;*/
+    border: 1px solid rgba(132,89,229,0.3);
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+}
+.time-flow {
+    padding: 1rem;
+}
+.time-mouth{
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    line-height: 5rem;
+}
+.time-mouth time{
+    width: 24%;
+    height: 3rem;
+    line-height:3rem;
+    font-size: 1.7rem;
+    text-align: right;
+    padding-right: .6rem;
+}
+.time-mouth:not(.no-line) div:nth-of-type(1)::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 1.6rem;
+    left: 6px;
+    width: 2px;
+    height: 3rem;
+    background-color: #8459E5;
+}
+
+.time-mouth div:nth-of-type(2) {
+    width: 66%;
+    line-height:1.5rem;
+    padding-left: 1rem;
+    font-size: 1.3rem;
+}
+
+ .time-mouth .circle span {
+    width: 6px;
+    height: 6px;
+    background-color: #8459E5;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+/*download start*/
+#download .content-wrap{
+    height: 91.5%;
+    overflow-y: scroll;
+}
+.download-box h2 {
+    height: 3.5rem;
+}
+
+.top-bg{
+    height: auto;
+    
+}
+.top-bg img{
+    width: 100%;
+    
+}
+.download{
+    padding-bottom: 2rem;
+    
+}
+.download p{
+    margin: 1rem 0;
+}
+.download h4{
+    transform: translateY(-3rem);
+    height: 6rem;
+    width: 6rem;
+    font-size: 2rem;
+    border-radius: .8rem;
+    /*background-image: #6D3DE1;*/
+}
+.download h4 img{
+    height: 100%;
+}
+.download h3{
+    margin-top: -2rem;
+}
+.download .text-content{
+    text-align: center;
+    padding: 0 15%;
+}
+
+.download .btn-download {
+    background-color: #6D3DE1;
+    display: block;
+    width: 15rem;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 3rem;
+}
+/*update record*/
+.record{
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #5B5B5B;
+    opacity: .8;
+}
+
+.record-content{
+    position: fixed;
+    box-sizing: border-box;    
+    top: 8rem;
+    height: 90vh;
+    width: 100%;
+    padding: 1rem;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.top-tab{
+    width: 20rem;    
+    height: 2rem;
+    background-color: #EEEDEE;
+    border-radius: 3rem;
+}
+.top-tab div{
+    width: 50%;    
+    height: 100%;
+    border-radius: 3rem;
+}
+.top-tab .active{
+    background-color: #8055E4;
+    color: #fff;
+}
+.tap-content{
+    padding: 1.5rem;
+}
+.tap-content .record-infos{
+    float: left;
+}
+.tap-content .right{
+    float: right;
+}
+.tap-content p{
+    margin-top: .8rem;
+}
+.tap-content p::before{
+    content: '-';
+    display: inline-block;
+    color: #999;
+}
+
+.tap-content .pub-border{
+    padding: 1.5rem 0;
+}
+.tap-content .pub-border:not(.nomargin){
+    margin-top: 1rem;
+}
+
+/*网站地图*/
+.map-icon {
+    margin: 0 4%;
+    height: 4rem;
+    width: 100%;
+}
+.bg-icon{
+    display: inline-block;
+    height: 100%;
+    width: 3rem;
+    /*background-image: url('/assets/skin/icon_ditu@3x.png')*/
+}
+
+.map-icon img{
+    height: 1.5rem;
+    margin-right: 1rem;
+}
+
+.site-map .map-nav{
+    padding: 2rem;
+}
+
+.site-map .current-pos{
+    border-top: 1px solid #e4e4e4;
+}
+
+/*contact */
+.contact {
+    /*height: 86%;*/
+}
+.contact .top-barner{
+    height: 10rem;
+    position: relative;
+}
+.contact .top-barner img{
+    /*height: 10rem;*/
+    width: 100%; 
+}
+.contact .top-barner div{
+    height: 3em;
+    padding: 0 1.5rem;
+    position: absolute;
+    bottom: -1.5rem;
+    left: 1rem;
+    color: #9B7EE7;
+    background-color: rgba(239, 239, 239, 0.8)
+        
+}
+.contact .contact-info{
+    padding: 3rem 0rem 2rem;
+    margin: 0 1rem;
+}
+.contact .contact-info div{
+    margin-bottom: 1rem;
+}
+.contact .contact-info .view-map{
+    
+}
+.contact .contact-info a{
+    color: #9B7EE7;
+    border: 1px solid ;
+    padding: .5rem 1rem;
+
+}
+.contact .baba51 {
+    text-align: center;
+}
+.contact .baba51 img{
+    width: 40%;
+    color: #9B7EE7;
+    padding: 1.5rem 0rem 1rem;
+}
+.contact .current-pos{
+    border-top: 1px solid #E4E4E4;
+    margin-top: 1.5rem;
+}

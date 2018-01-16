@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<title>帮助中心 - </title>
+	<meta name="description" content="萨摩耶金服帮助中心,为您解决使用省呗过程遇到的注册、审核、借款、还款、账户等问题，为用户提供最优质的服务."/>
+	<meta name="keywords" content="萨摩耶金服帮助中心,省呗安全吗,省呗怎么注册,省呗怎么用,省呗客服,省呗额度,信用卡怎么计算利息" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no, maximum-scale=1.0" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+
+	<base href="/mobile/" />
+
+	<link href="assets/css/animate.css" rel="stylesheet" type="text/css" />
+	<link href="assets/css/global.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="assets/css/help.css">
+</head>
+<body>
+<div style="height: 100%" class="feedback">
+	
+	<!--头部-->
+	<header class="bgFFF pos-rel">
+		<h1 title="萨摩耶金服" class="logo"><img src="assets/skin/logo.png" alt="深圳萨摩耶互联网金融服务有限公司" title="深圳萨摩耶互联网金融服务有限公司" /></h1>
+		<a href="javascript:;" title="菜单" class="btn-menu ta-c pos-abs t0 b0 m-auto0"><i class="i-samoye csmy-B">&#xe60e;</i></a>
+		<a href="javascript:;" title="关闭菜单" class="btn-menu-close pos-abs t0 b0 m-auto0"></a>
+	</header>
+	<!--头部 END-->
+
+	<!--菜单-->
+	<div class="smy-menu-box animated pos-fix l0 r0 t0 b0 bgFFF dpN">
+		<div class="samoye-box pos-rel">
+			<ul class="s-m-b-list fs16">
+				<li>
+					<a href="page/index.html" title="首页"><i class="i-samoye">&#xe613;</i>宝宝云</a>
+				</li>
+				<li>
+					<a href="page/download/index.html" title="应用下载"><i class="i-samoye">&#xe607;</i>应用下载</a>
+				</li>
+				<li>
+					<a href="page/introduce/index.html" title="企业简介"><i class="i-samoye">&#xe618;</i>企业简介</a>
+				</li>
+				<li>
+					<a href="page/dynamic/index.html" title="公司动态"><i class="i-samoye">&#xe619;</i>公司动态</a>
+				</li>
+				<li>
+					<a href="page/history/index.html" title="发展历程"><i class="i-samoye">&#xe619;</i>发展历程</a>
+				</li>
+				<li>
+					<a href="page/help/index.html" title="帮助中心"><i class="i-samoye">&#xe617;</i>帮助中心</a>
+				</li>
+				<li>
+					<a href="page/map/index.html" title="网站地图"><i class="i-samoye">&#xe61a;</i>网站地图</a>
+				</li>
+			</ul>
+			<div class="s-m-b-QRode ta-c fs12 csmy-B">
+				<h3 title="一个让婴童店生意更好做的公众号">
+					<img src="assets/skin/BByun.png" alt="省呗公众号二维码" />
+				</h3>
+				<p>一个让婴童店生意更好做<br />的公众号</p>
+			</div>
+		</div>
+	</div>
+	<!--菜单 END-->
+
+	<div class="feed-box pub-bgf7" id="feedback">
+		<h1 class="bb-title ta-c pub-border pub-bgf">意见反馈</h1>
+		<div class="feed feed-type pub-vcenter-flex">反馈类型</div>
+        <div class="top-search pub-vcenter">
+            <div class="icon pub-vcenter-flex">网站体验</div>
+            
+            <!--<div class="icon"><span @click=""></span> </div>-->
+			
+        </div>
+		<div class="feed feed-type pub-vcenter-flex">反馈内容</div>
+        <div class="top-search pub-vcenter-flex feed-content">
+			<img src="assets/skin/icon_edit@2x.png" />
+            <textarea class=" " type="text" id="content" value=""></textarea>         
+        </div>
+		<div class="feed feed-type pub-vcenter-flex">企业名称</div>
+		
+        <div class="top-search pub-vcenter last-input">	
+            <input class=" " type="text" id="name" >
+        	<div class="tips-word c999">您的信息我们严格保密，仅便于我们告知您的处理进度</div>
+        </div>
+        
+        <div class="submit-btn pub-abscenter-flex ta-c pub">提交</div>
+		
+	</div>
+
+	
+	
+
+	
+
+<script src="assets/lib/seajs/2.2.0/sea.js"></script>
+<script src="assets/js/app.js"></script>
+<script type="text/javascript">
+	seajs.use("../../assets/js/help", function(Help) {
+		var h = new Help();
+		h.index();
+	});
+</script>
+
+</body>
+</html>
